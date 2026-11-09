@@ -26,5 +26,5 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Push to `main` and Render redeploys automatically. If a custom domain is added later, update canonical, og:url, og:image, twitter:image and JSON-LD url/image/logo in index.html.
 
 ## Placeholders still to replace (search for PLACEHOLDER / TODO)
-- Project photos: 4 remaining 'Photo coming soon' blocks in #projects (Excavation, Demolition, Drainage & Detention, Traffic Control). 4 slots already use stills from the job videos (assets/projects/*-still.jpg/.webp).
+- Project photos: 3 remaining 'Photo coming soon' blocks in #projects (Excavation, Demolition, Drainage & Detention). 4 slots already use stills from the job videos (assets/projects/*-still.jpg/.webp).
 - Quote form backend (currently opens visitor's email app via mailto)
