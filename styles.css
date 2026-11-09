@@ -91,7 +91,8 @@ p{margin:0 0 1em}
 
 /* Services */
 .services{background:linear-gradient(180deg,#f5f7fa,#fff)}
-.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{padding:28px 22px}
 .card{background:#fff;border-radius:var(--radius);padding:30px 26px;box-shadow:var(--shadow);border-top:5px solid var(--navy);transition:transform .2s,border-color .2s}
 .card:hover{transform:translateY(-4px);border-top-color:var(--red)}
 .card p{color:var(--muted);margin:0}
@@ -125,7 +126,7 @@ p{margin:0 0 1em}
 .area-map svg{width:100%;height:auto;border-radius:16px;box-shadow:var(--shadow)}
 
 /* Projects */
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .photo-slot{position:relative;margin:0;aspect-ratio:4/3;border-radius:var(--radius);overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff;border:2px dashed rgba(255,255,255,.4)}
 .photo-slot::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 2px,transparent 2px 18px)}
 .ps-1{background:linear-gradient(135deg,#0b2a5b,#3b5d93)}
@@ -134,6 +135,8 @@ p{margin:0 0 1em}
 .ps-4{background:linear-gradient(135deg,#14407a,#0b2a5b)}
 .ps-5{background:linear-gradient(135deg,#1c5d7a,#0b2a5b)}
 .ps-6{background:linear-gradient(135deg,#ff7a1a,#c8102e)}
+.ps-7{background:linear-gradient(135deg,#5b6b82,#0b2a5b)}
+.ps-8{background:linear-gradient(135deg,#c8102e,#0b2a5b)}
 .ps-label{position:relative;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:.4em .9em;border:1px solid rgba(255,255,255,.6);border-radius:999px;background:rgba(0,0,0,.15)}
 .photo-slot figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 18px;font-family:var(--head);text-transform:uppercase;letter-spacing:.06em;font-size:1.15rem;background:linear-gradient(transparent,rgba(0,0,0,.55))}
 
@@ -180,6 +183,7 @@ address{font-style:normal}
 /* Responsive */
 @media (max-width:1024px){
   .card-grid{grid-template-columns:repeat(2,1fr)}
+  .gallery{grid-template-columns:repeat(2,1fr)}
   .ind-grid{grid-template-columns:repeat(2,1fr)}
   .why-inner,.area-inner,.contact-inner{grid-template-columns:1fr;gap:36px}
 }
