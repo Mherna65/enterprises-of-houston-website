@@ -15,7 +15,11 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Hours: Always on call — 24/7 (structured data: Mo-Su 00:00-23:59)
 - Email: mhernandez2962@yahoo.com (contact, footer, form action, main.js TO, structured data)
 
+## Hosting
+- Live: https://enterprises-of-houston-website.onrender.com (Render free static site, publish path ./, no build)
+- Repo: https://github.com/Mherna65/enterprises-of-houston-website
+- Push to `main` and Render redeploys automatically. If a custom domain is added later, update canonical, og:url, og:image, twitter:image and JSON-LD url/image/logo in index.html.
+
 ## Placeholders still to replace (search for PLACEHOLDER / TODO / yourdomain)
-- Domain: https://www.yourdomain.com/ (canonical, og:url, og:image, twitter:image, JSON-LD image/logo)
 - Project photos: 6 .photo-slot blocks in #projects
 - Quote form backend (currently opens visitor's email app via mailto)
