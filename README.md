@@ -16,7 +16,7 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Email: mhernandez2962@yahoo.com (contact, footer, form action, main.js TO, structured data)
 
 ## Videos
-- assets/video/job-slab-prep.mp4 (H.264, 720x1280, no audio, faststart, ~4.4 MB; HDR iPhone source tone-mapped to SDR) + job-slab-prep-poster.jpg
+- assets/video/job-slab-prep.mp4 (~4.4 MB), job-trenching.mp4 (~3.6 MB), job-sawcut-prep.mp4 (~2.8 MB), job-concrete-pour.mp4 (~2.0 MB): H.264, 720x1280, no audio, faststart; HDR iPhone sources tone-mapped to SDR. Each has a matching *-poster.jpg.
 - Section "On the Job" (#on-the-job). Add a 2nd video by copying a <figure class="video-card"> in .video-grid; it becomes 2-up automatically.
 - Videos lazy-load (main.js) and autoplay muted only when scrolled into view.
 
@@ -26,5 +26,5 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Push to `main` and Render redeploys automatically. If a custom domain is added later, update canonical, og:url, og:image, twitter:image and JSON-LD url/image/logo in index.html.
 
 ## Placeholders still to replace (search for PLACEHOLDER / TODO)
-- Project photos: 6 .photo-slot blocks in #projects
+- Project photos: 4 remaining 'Photo coming soon' blocks in #projects (Excavation, Demolition, Drainage & Detention, Traffic Control). 4 slots already use stills from the job videos (assets/projects/*-still.jpg/.webp).
 - Quote form backend (currently opens visitor's email app via mailto)
