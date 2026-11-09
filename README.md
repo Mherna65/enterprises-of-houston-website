@@ -20,6 +20,6 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Repo: https://github.com/Mherna65/enterprises-of-houston-website
 - Push to `main` and Render redeploys automatically. If a custom domain is added later, update canonical, og:url, og:image, twitter:image and JSON-LD url/image/logo in index.html.
 
-## Placeholders still to replace (search for PLACEHOLDER / TODO / yourdomain)
+## Placeholders still to replace (search for PLACEHOLDER / TODO)
 - Project photos: 6 .photo-slot blocks in #projects
 - Quote form backend (currently opens visitor's email app via mailto)
