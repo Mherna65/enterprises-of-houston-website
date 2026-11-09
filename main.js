@@ -31,3 +31,24 @@
     status.textContent='Opening your email app to send the request…';status.className='form-status';
   });
 })();
+
+// Lazy-load job videos: attach the source and autoplay (muted) only when scrolled into view.
+(function(){
+  var vids=document.querySelectorAll('video.lazy-video');
+  if(!vids.length)return;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function load(v){
+    if(v.dataset.loaded)return;
+    v.querySelectorAll('source[data-src]').forEach(function(s){s.src=s.dataset.src;});
+    v.preload='metadata';v.load();v.dataset.loaded='1';
+  }
+  if(!('IntersectionObserver' in window)){vids.forEach(load);return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      var v=e.target;
+      if(e.isIntersecting){load(v);if(!reduce){var p=v.play();if(p&&p.catch)p.catch(function(){});}}
+      else if(v.dataset.loaded&&!v.paused){v.pause();}
+    });
+  },{rootMargin:'200px 0px',threshold:0.25});
+  vids.forEach(function(v){io.observe(v);});
+})();

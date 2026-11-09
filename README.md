@@ -15,6 +15,11 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Hours: Always on call — 24/7 (structured data: Mo-Su 00:00-23:59)
 - Email: mhernandez2962@yahoo.com (contact, footer, form action, main.js TO, structured data)
 
+## Videos
+- assets/video/job-slab-prep.mp4 (H.264, 720x1280, no audio, faststart, ~4.4 MB; HDR iPhone source tone-mapped to SDR) + job-slab-prep-poster.jpg
+- Section "On the Job" (#on-the-job). Add a 2nd video by copying a <figure class="video-card"> in .video-grid; it becomes 2-up automatically.
+- Videos lazy-load (main.js) and autoplay muted only when scrolled into view.
+
 ## Hosting
 - Live: https://enterprises-of-houston-website.onrender.com (Render free static site, publish path ./, no build)
 - Repo: https://github.com/Mherna65/enterprises-of-houston-website
