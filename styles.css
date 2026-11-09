@@ -134,6 +134,23 @@ p{margin:0 0 1em}
 .ind h3{font-size:1.12rem}
 .ind p{margin:0;color:var(--muted);font-size:.96rem}
 
+/* Companies / Clients */
+.clients{background:#fff}
+.client-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.client-list li{margin:0}
+.client-list a,.client-list span{
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  min-height:72px;padding:18px 20px;border-radius:var(--radius);
+  background:var(--silver);border:2px solid transparent;
+  color:var(--navy);font-family:var(--head);font-weight:700;font-size:1.05rem;
+  letter-spacing:.03em;text-transform:uppercase;text-decoration:none;
+  transition:border-color .15s,background .15s,transform .15s,box-shadow .15s
+}
+.client-list a:hover,.client-list a:focus-visible{
+  background:#fff;border-color:var(--gold);box-shadow:var(--shadow);transform:translateY(-2px);color:var(--navy)
+}
+.client-list span{cursor:default}
+
 /* Area */
 .area{background:#f5f7fa}
 .area-inner{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
@@ -235,6 +252,7 @@ address{font-style:normal}
   .card-grid{--cols:2}
   .gallery{--cols:2}
   .ind-grid{grid-template-columns:repeat(2,1fr)}
+  .client-list{grid-template-columns:repeat(2,1fr)}
   .why-inner,.area-inner,.contact-inner,.about-inner{grid-template-columns:1fr;gap:36px}
   .about-photos{max-width:620px;margin-inline:auto;width:100%}
 }
@@ -248,7 +266,7 @@ address{font-style:normal}
 }
 @media (max-width:640px){
   .section{padding:64px 0}
-  .card-grid,.ind-grid,.why-list,.field-row{grid-template-columns:1fr}
+  .card-grid,.ind-grid,.why-list,.field-row,.client-list{grid-template-columns:1fr}
   .field-row{gap:0}
   .card-grid{gap:16px;--cols:1}
   .card-grid>.card{flex-basis:100%}
@@ -258,6 +276,7 @@ address{font-style:normal}
   .card h3{align-self:center;margin-bottom:.3em}
   .ind{padding:22px 20px}
   .ind-num{font-size:2.2rem}
+  .client-list a,.client-list span{min-height:60px;padding:16px 18px;font-size:.98rem}
   .gallery{--cols:2;gap:12px}
   .gallery>figure{flex-basis:calc((100% - 12px)/2)}
   .photo-slot,.photo-card{aspect-ratio:1/1}
