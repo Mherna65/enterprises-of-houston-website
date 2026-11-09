@@ -16,7 +16,7 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Email: mhernandez2962@yahoo.com (contact, footer, form action, main.js TO, structured data)
 
 ## About section
-- assets/about/miguel-hernandez-jr.jpg/.webp (owner headshot, 4:5 crop) and miguel-iii-and-jr.jpg/.webp (real father-and-son photo, lightly cropped top/bottom only; original in assets/src/miguel-jr-and-iii-original.png).
+- assets/about/miguel-hernandez-jr.jpg/.webp (owner headshot, 4:5 crop) and miguel-iii-and-jr.jpg/.webp (real father-and-son photo, cropped mid-chest up, both men fully in frame, faces unaltered; original in assets/src/miguel-jr-and-iii-original.png).
 
 ## Videos
 - assets/video/job-slab-prep.mp4 (~4.4 MB), job-trenching.mp4 (~3.6 MB), job-sawcut-prep.mp4 (~2.8 MB), job-concrete-pour.mp4 (~2.0 MB): H.264, 720x1280, no audio, faststart; HDR iPhone sources tone-mapped to SDR. Each has a matching *-poster.jpg.
