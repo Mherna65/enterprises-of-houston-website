@@ -12,8 +12,11 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 ## Contact info (filled in)
 - Primary phone (all Call buttons, footer, structured data): Miguel Hernandez Jr., Owner, (281) 425-5099
 - Second contact (Contact section only): Miguel Hernandez III, (281) 515-6659
-- Hours: Always on call — 24/7 (structured data: Mo-Su 00:00-23:59)
+- Hours: Always on call — 24/7, including emergency call-outs (structured data: Mo-Su 00:00-23:59)
 - Email: mhernandez2962@yahoo.com (contact, footer, form action, main.js TO, structured data)
+
+## About section
+- assets/about/miguel-hernandez-jr.jpg/.webp (owner headshot, 4:5 crop) and miguel-iii-and-jr.jpg/.webp (real father-and-son photo, lightly cropped top/bottom only; original in assets/src/miguel-jr-and-iii-original.png).
 
 ## Videos
 - assets/video/job-slab-prep.mp4 (~4.4 MB), job-trenching.mp4 (~3.6 MB), job-sawcut-prep.mp4 (~2.8 MB), job-concrete-pour.mp4 (~2.0 MB): H.264, 720x1280, no audio, faststart; HDR iPhone sources tone-mapped to SDR. Each has a matching *-poster.jpg.
