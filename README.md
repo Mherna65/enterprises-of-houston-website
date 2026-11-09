@@ -18,7 +18,7 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 ## Videos
 - assets/video/job-slab-prep.mp4 (~4.4 MB), job-trenching.mp4 (~3.6 MB), job-sawcut-prep.mp4 (~2.8 MB), job-concrete-pour.mp4 (~2.0 MB): H.264, 720x1280, no audio, faststart; HDR iPhone sources tone-mapped to SDR. Each has a matching *-poster.jpg.
 - Section "On the Job" (#on-the-job). Add a 2nd video by copying a <figure class="video-card"> in .video-grid; it becomes 2-up automatically.
-- Videos lazy-load (main.js) and autoplay muted only when scrolled into view.
+- Videos lazy-load (main.js) and autoplay muted + looped by themselves when in view (no tap), pause when scrolled away; if a phone blocks autoplay (e.g. iOS Low Power Mode) they start on the first touch/scroll.
 
 ## Hosting
 - Live: https://enterprises-of-houston-website.onrender.com (Render free static site, publish path ./, no build)
