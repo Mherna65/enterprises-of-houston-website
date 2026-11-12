@@ -24,10 +24,10 @@ apple-touch-icon.png, og-image.png (1200x630 link preview) and favicon.ico.
 - Videos lazy-load (main.js) and autoplay muted + looped by themselves when in view (no tap), pause when scrolled away; if a phone blocks autoplay (e.g. iOS Low Power Mode) they start on the first touch/scroll.
 
 ## Hosting
-- Live: https://enterprises-of-houston-website.onrender.com (Render free static site, publish path ./, no build)
+- Live: https://enterprisesofhouston.com (also https://enterprises-of-houston-website.onrender.com) (Render free static site, publish path ./, no build)
 - Repo: https://github.com/Mherna65/enterprises-of-houston-website
 - Push to `main` and Render redeploys automatically. If a custom domain is added later, update canonical, og:url, og:image, twitter:image and JSON-LD url/image/logo in index.html.
 
 ## Placeholders still to replace (search for PLACEHOLDER / TODO)
-- Project photos: 3 remaining 'Photo coming soon' blocks in #projects (Excavation, Demolition, Drainage & Detention). 4 slots already use stills from the job videos (assets/projects/*-still.jpg/.webp).
+- Project photos: 2 remaining 'Photo coming soon' blocks in #projects (Demolition, Drainage & Detention). The other cards use stills from the job videos (assets/projects/*-still.jpg/.webp) and excavation job photos (assets/projects/job-*.jpg/.webp).
 - Quote form backend (currently opens visitor's email app via mailto)

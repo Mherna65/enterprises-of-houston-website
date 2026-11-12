@@ -1,2 +1,4 @@
 preview-*.png
 __pycache__/
+# large trimmed phone originals kept local only
+assets/src/job-*-original.png
